@@ -10,6 +10,7 @@ const App = () => {
   const notify = () => {
     toast.success("Wow so easy !");
     message.susscess('Este es mi mensaje')
+    message.warning('Este es mi mensaje')
   }
 
   return <button onClick={notify}>Notify !</button>;
